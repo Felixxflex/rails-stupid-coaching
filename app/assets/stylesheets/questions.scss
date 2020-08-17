@@ -1,0 +1,28 @@
+#yo {
+    text-align: center;
+}
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+h2 {
+    text-align: center;
+}
+a {
+    color: grey;
+    &:hover {
+      color: black;
+    }
+  }
+
+  .banner {
+    background: burlywood;
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  
